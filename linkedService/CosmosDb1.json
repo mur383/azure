@@ -1,0 +1,16 @@
+{
+	"name": "CosmosDb1",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "CosmosDb",
+		"typeProperties": {
+			"connectionString": "AccountEndpoint=https://covid19-cosmosdb-mmmyb3wbpezyk.documents.azure.com:443/;Database=covid19;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNPVklEMTktU1lOQVBTRS1NTU1ZQjNXQlBFWllLXzhhNDgzNGIwLWMzMWItNDE5Ny04YmEwLTNmN2FmNjYxNzUyYyINCn0="
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
